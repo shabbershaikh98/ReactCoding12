@@ -1,0 +1,23 @@
+/* Write your code here. */
+.gallery-container {
+  text-align: center;
+  background-color: #1e293b;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image {
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+}
+
+.thumbnails-list {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
